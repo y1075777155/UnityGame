@@ -23,6 +23,7 @@ public class PlayerController : MonoBehaviour
 
         // += 事件注册，把这个函数方法添加到按键按下的那一刻来执行
         inputControl.Gameplay.Jump.started += Jump;
+        print("yubo");
         
     }
 
